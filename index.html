@@ -1,45 +1,42 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Itaquá Conecta!</title>
     <link rel="stylesheet" href="style.css">
-
-    <title>Itaquá</title>
 </head>
-
 <body>
-    <header>
-        <button id="open">Login</button>
-    </header>
+    <div class="container">
+        <div class="card">
+            <h1>Entrar</h1>
 
-    <main>
-        <dialog>
-
-            <button id="close">X</button>
-            <div id="forms">
-                <form action="">
-                    <h2>Login</h2>
-                    <input type="email" placeholder="E-mail"><br>
-                    <input type="password" placeholder="Senha"><br>
-                    <button>Entrar</button>
-                    </form>
-
-                <form action="">
-                    <h2>Cadastrar</h2>
-                    <input type="text" placeholder="Nome"><br>
-                    <input type="email" placeholder="E-mail"><br>
-                    <input type="password" placeholder="Senha"><br>
-                    <input type="password" placeholder="Confirmar senha"><br>
-                    <button>Cadastar</button>
-                </form>
+            <div class="label-float">
+                <input type="text" id="usuario" placeholder="">
+                <label for="usuario">Usuário</label>
             </div>
-        </dialog>
-    </main>
 
+            <div class="label-float">
+                <input type="text" id="senha" placeholder="">
+                <label for="senha">Senha</label>
+            </div>
+
+            <div class="justify-center">
+                <button>Entrar</button>
+            </div>
+
+            <div class="justify-center">
+                <hr>
+            </div>
+
+            <p>
+                Não tem uma conta? <a href="">Cadastre-se</a>
+            </p>
+
+
+        </div>
+    </div>
 
     <script src="main.js"></script>
 </body>
-
 </html>
