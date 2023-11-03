@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
 }
 
 body {
@@ -107,5 +108,26 @@ button:hover{
     right: 10px;
     cursor: pointer;
     color: #272262;
+}
+
+#msgError {
+    text-align: center;
+    color: #ff0000;
+    background-color: #ffbbbb;
+    padding: 10px;
+    border-radius: 4px;
+    display: none;
+    transition: all .5s ease-out;
+}
+
+#msgSucess {
+    text-align: center;
+    padding: 10px;
+    border-radius: 4px;
+    display: none;
+}
+
+#msgSucess img {
+    width: 10%;
 }
 
